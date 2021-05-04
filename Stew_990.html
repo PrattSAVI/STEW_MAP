@@ -1,0 +1,60 @@
+<!doctype html>
+<html lang="en">
+
+<head>
+    <!-- Required meta tags -->
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+
+    <!-- Import BUnch of Things -->
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/css/bootstrap.min.css" integrity="sha384-Gn5384xqQ1aoWXA+058RXPxPg6fy4IWvTNh0E263XmFcJlSAwiGgFAW/dAiS6JXm" crossorigin="anonymous">
+    <script src="https://code.jquery.com/jquery-3.1.1.min.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.12.9/umd/popper.min.js" integrity="sha384-ApNbgh9B+Y1QKtv3Rn7W3mgPxhU9K/ScQsAP7hUibX39j7fakFPskvXusvfa0b4Q" crossorigin="anonymous"></script>
+    <script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/js/bootstrap.min.js" integrity="sha384-JZR6Spejh4U02d8jOt6vLEHfe/JQGiRRSQQxSfFWpi1MquVdAyjUar5+76PVCmYl" crossorigin="anonymous"></script>
+    <link href='https://fonts.googleapis.com/css?family=Assistant' rel='stylesheet'>
+
+    <title>STEW-MAP LIVE</title>
+    <style>
+        body {
+            width: 100%;
+            height: 100vh;
+        }
+        
+        #container {
+            height: 100%;
+        }
+        
+        #map {
+            width: 60%;
+            height: 100%;
+            float: left;
+            background-color: white;
+        }
+        
+        #survey {
+            width: 39%;
+            height: 100%;
+            background-color: blue;
+            margin-left: 60.1%;
+        }
+        
+        iframe {
+            width: 100%;
+            height: 100%;
+        }
+    </style>
+</head>
+
+<body>
+
+    <div id="container" style="width: 100%; height:100%;overflow: hidden;">
+        <div id="map">
+            <iframe src="https://prattsavi.maps.arcgis.com/apps/webappviewer/index.html?id=755e66750a2546efad5c1a009db3081f"></iframe>
+        </div>
+        <div id="survey">
+            <iframe src="https://arcg.is/4K59S"></iframe>
+        </div>
+    </div>
+
+
+</body>
